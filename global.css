@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #555;
 }
 
 li {
@@ -23,5 +23,17 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: blue;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
 }
